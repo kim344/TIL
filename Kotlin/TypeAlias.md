@@ -10,7 +10,7 @@
 
 ## 예시
 서울시 강남구 서초동의 미세먼지 데이터를 가지고 있는 클래스를(SeoulCityGangNamGuSeoChoDongFineDustData) 사용하기에는 타입의 이름이 너무 길어
-간편하게 AirkCondition 이라는 별명으로 바꿔서 사용할 수 있다.
+간편하게 AirCondition 이라는 별명으로 바꿔서 사용할 수 있다.
 ```
 typealias AirCondition = SeoulCityGangNamGuSeoChoDongFineDustData
 
