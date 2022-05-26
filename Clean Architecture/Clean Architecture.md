@@ -14,6 +14,7 @@
  - 프레임워크와 관련된 코드를 포함해서는 안 된다.
 
 ### Use Cases
+ - 어플리케이션과 관련된 비즈니스 로직을 포함한다.
  - 
 ### Interface Adapters
 ### Frameworks Drivers
