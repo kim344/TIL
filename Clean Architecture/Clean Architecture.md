@@ -21,6 +21,8 @@
    * Repository : 내부 DB에 접근하거나 또는 원격 서버의 데이터 요청하는 역할을 한다.
    * Executor : Repository나 Model과 관련된 작업이 백그라운드에서 동작할 수 있도록 작업 스레드를 관리하고 제공한다.
 ### Interface Adapters
+ - 엔티티나 유스케이스로 부터 얻은 데이터를 가공하는 계층이다.
+ - 
 ### Frameworks Drivers
 
 <img src="https://www.charlezz.com/wordpress/wp-content/uploads/2019/08/Chapter1-300x223.png">
