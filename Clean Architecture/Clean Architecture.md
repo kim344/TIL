@@ -22,7 +22,10 @@
    * Executor : Repository나 Model과 관련된 작업이 백그라운드에서 동작할 수 있도록 작업 스레드를 관리하고 제공한다.
 ### Interface Adapters
  - 엔티티나 유스케이스로 부터 얻은 데이터를 가공하는 계층이다.
- - 
+ - 비즈니스 로직을 수행하여 원하는 결과값을 UI에 표현하려는 데이터 형식으로 변환한다.
+ - Presenter, View, ViewModel, Repository가 포함된다.
+ - 순수한 비즈니스 로직만 담당한다.
+ - 이 계층의 목적은 비즈니스 로직과 Framework 코드를 자연스럽게 연결하는 것이다.
 ### Frameworks Drivers
 
 <img src="https://www.charlezz.com/wordpress/wp-content/uploads/2019/08/Chapter1-300x223.png">
