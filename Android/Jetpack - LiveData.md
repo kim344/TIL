@@ -1,4 +1,4 @@
-LiveData는 관찰 가능한(Observable) 데이터 클래스다.
+## LiveData는 관찰 가능한(Observable) 데이터 클래스다.
 <br>
 DataBinding, RxJava의 Observable 다르게 LiveData는 Lifecycle을 통해 생명주기를 인식한다. 즉 액티비티, 프래그먼트, 서비스와 컴포넌트들의 생명주기를 따른다.
 <br><br>
